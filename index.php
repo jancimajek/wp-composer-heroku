@@ -1,5 +1,5 @@
 <?php
-echo getenv('JAWSDB_URL');
+$url = getenv('JAWSDB_URL');
 
 $dbparts = parse_url($url);
 
