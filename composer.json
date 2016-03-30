@@ -17,10 +17,7 @@
   ],
   "require": {
     "php": ">=5.4",
-    "johnpbloch/wordpress": "4.2",
-    "fancyguy/wordpress-monolog": "dev-master",
-    "wpackagist-plugin/advanced-custom-fields": "*",
-    "wpackagist-plugin/posts-to-posts": "1.4.x"
+    "johnpbloch/wordpress": "4.4.x"
   },
   "extra": {
     "wordpress-install-dir": "wp"
