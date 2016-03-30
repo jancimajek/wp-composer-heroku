@@ -1,6 +1,9 @@
 <?php
 
 phpinfo();
+
+error_log('JANCI TEST ERROR');
+
 exit;
 
 $url = getenv('JAWSDB_URL');
