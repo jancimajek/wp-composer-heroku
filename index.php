@@ -1,23 +1,17 @@
 <?php
-$url = getenv('JAWSDB_URL');
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
 
-$dbparts = parse_url($url);
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define('WP_USE_THEMES', true);
 
-$hostname = $dbparts['host'];
-$username = $dbparts['user'];
-$password = $dbparts['pass'];
-$database = ltrim($dbparts['path'],'/');
-
-// Create connection
-$conn = mysqli_connect($hostname, $username, $password, $database);
-
-// Check connection
-if (!$conn) {
-	die("Connection failed: " . mysqli_connect_error());
-}
-echo "Connection was successfully established! <hr />";
-
-echo 'h:' . $hostname . '<br />';
-echo 'u:' . $username . '<br />';
-echo 'p:' . $password . '<br />';
-echo 'd:' . $database . '<br />';
+/** Loads the WordPress Environment and Template */
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );
