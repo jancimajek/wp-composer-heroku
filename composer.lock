@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9dfe86346bcee993008083709bf2c596",
-    "content-hash": "402d188fe3bf6b6f21626a45ed6ad3f7",
+    "hash": "ac191ba69f0c2599a98a8a110ec4b60d",
+    "content-hash": "1898fd4aecf0acfb6585350ca1700826",
     "packages": [
         {
             "name": "composer/installers",
@@ -106,46 +106,6 @@
             "time": "2016-01-27 12:54:22"
         },
         {
-            "name": "fancyguy/wordpress-monolog",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:fancyguy/wordpress-monolog.git",
-                "reference": "802cef4feaee61f513d621fe9516af17f8e067b7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fancyguy/wordpress-monolog/zipball/802cef4feaee61f513d621fe9516af17f8e067b7",
-                "reference": "802cef4feaee61f513d621fe9516af17f8e067b7",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "monolog/monolog": "~1.4"
-            },
-            "type": "wordpress-plugin",
-            "extra": {
-                "installer-name": "fancyguy-monolog"
-            },
-            "autoload": {
-                "psr-0": {
-                    "FancyGuy\\WordPress\\Plugin\\Monolog": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Steve Buzonas",
-                    "email": "steve@fancyguy.com"
-                }
-            ],
-            "description": "WordPress Monolog Integration",
-            "time": "2014-11-20 16:46:41"
-        },
-        {
             "name": "johnpbloch/wordpress",
             "version": "4.4.2",
             "source": {
@@ -231,122 +191,6 @@
             "time": "2015-06-11 15:15:30"
         },
         {
-            "name": "monolog/monolog",
-            "version": "1.18.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
-                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "psr/log": "~1.0"
-            },
-            "provide": {
-                "psr/log-implementation": "1.0.0"
-            },
-            "require-dev": {
-                "aws/aws-sdk-php": "^2.4.9",
-                "doctrine/couchdb": "~1.0@dev",
-                "graylog2/gelf-php": "~1.0",
-                "jakub-onderka/php-parallel-lint": "0.9",
-                "php-console/php-console": "^3.1.3",
-                "phpunit/phpunit": "~4.5",
-                "phpunit/phpunit-mock-objects": "2.3.0",
-                "raven/raven": "^0.13",
-                "ruflin/elastica": ">=0.90 <3.0",
-                "swiftmailer/swiftmailer": "~5.3",
-                "videlalvaro/php-amqplib": "~2.4"
-            },
-            "suggest": {
-                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
-                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
-                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
-                "ext-mongo": "Allow sending log messages to a MongoDB server",
-                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
-                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
-                "php-console/php-console": "Allow sending log messages to Google Chrome",
-                "raven/raven": "Allow sending log messages to a Sentry server",
-                "rollbar/rollbar": "Allow sending log messages to Rollbar",
-                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
-                "videlalvaro/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Monolog\\": "src/Monolog"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jordi Boggiano",
-                    "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be"
-                }
-            ],
-            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
-            "homepage": "http://github.com/Seldaek/monolog",
-            "keywords": [
-                "log",
-                "logging",
-                "psr-3"
-            ],
-            "time": "2016-03-13 16:08:35"
-        },
-        {
-            "name": "psr/log",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/log.git",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Psr\\Log\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Common interface for logging libraries",
-            "keywords": [
-                "log",
-                "psr",
-                "psr-3"
-            ],
-            "time": "2012-12-21 11:40:51"
-        },
-        {
             "name": "wpackagist-plugin/advanced-custom-fields",
             "version": "4.4.5",
             "source": {
@@ -367,16 +211,36 @@
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
-            "name": "wpackagist-plugin/posts-to-posts",
-            "version": "1.4.3",
+            "name": "wpackagist-plugin/disable-wordpress-updates",
+            "version": "1.4.7",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/posts-to-posts/",
-                "reference": "tags/1.4.3"
+                "url": "https://plugins.svn.wordpress.org/disable-wordpress-updates/",
+                "reference": "tags/1.4.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/posts-to-posts.1.4.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-wordpress-updates.1.4.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-wordpress-updates/"
+        },
+        {
+            "name": "wpackagist-plugin/posts-to-posts",
+            "version": "1.6.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/posts-to-posts/",
+                "reference": "tags/1.6.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/posts-to-posts.1.6.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -390,9 +254,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "fancyguy/wordpress-monolog": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
