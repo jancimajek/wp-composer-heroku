@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ac191ba69f0c2599a98a8a110ec4b60d",
-    "content-hash": "1898fd4aecf0acfb6585350ca1700826",
+    "hash": "28178c9f37a3ed33231825709dd66826",
+    "content-hash": "e184ab4448b1998b651a48d40fa2dfb0",
     "packages": [
         {
             "name": "composer/installers",
@@ -104,6 +104,40 @@
                 "zikula"
             ],
             "time": "2016-01-27 12:54:22"
+        },
+        {
+            "name": "jancimajek/wp-plugin-assanka_web_chat",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jancimajek/wp-plugin-assanka_web_chat.git",
+                "reference": "d74c3d2dde3d24a19b0fb3104046539b5b61971d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jancimajek/wp-plugin-assanka_web_chat/zipball/d74c3d2dde3d24a19b0fb3104046539b5b61971d",
+                "reference": "d74c3d2dde3d24a19b0fb3104046539b5b61971d",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Majek",
+                    "email": "jan.majek@gmail.com"
+                }
+            ],
+            "description": "Wp using composer",
+            "support": {
+                "source": "https://github.com/jancimajek/wp-plugin-assanka_web_chat/tree/master",
+                "issues": "https://github.com/jancimajek/wp-plugin-assanka_web_chat/issues"
+            },
+            "time": "2016-03-31 15:01:44"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -254,7 +288,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "jancimajek/wp-plugin-assanka_web_chat": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

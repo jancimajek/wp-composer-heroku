@@ -13,6 +13,10 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:jancimajek/wp-plugin-assanka_web_chat.git"
     }
   ],
   "require": {
@@ -20,7 +24,8 @@
     "johnpbloch/wordpress": "4.4.x",
     "wpackagist-plugin/disable-wordpress-updates": "*",
     "wpackagist-plugin/advanced-custom-fields": "*",
-    "wpackagist-plugin/posts-to-posts": "*"
+    "wpackagist-plugin/posts-to-posts": "*",
+    "jancimajek/wp-plugin-assanka_web_chat": "dev-master"
   },
   "extra": {
     "wordpress-install-dir": "wp"
