@@ -80,8 +80,8 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
-define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/blog/wp-content' );
-define( 'WP_CONTENT_URL', 'http://example/blog/wp-content' );
+define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content' );
+//define( 'WP_CONTENT_URL', 'http:///wp-content' );
 
 /* That's all, stop editing! Happy blogging. */
 
