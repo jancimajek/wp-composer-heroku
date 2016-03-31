@@ -20,7 +20,7 @@
     "johnpbloch/wordpress": "4.4.x",
     "fancyguy/wordpress-monolog": "dev-master",
     "wpackagist-plugin/advanced-custom-fields": "*",
-    "wpackagist-plugin/posts-to-posts": "1.4.x"
+    "wpackagist-plugin/posts-to-posts": "*"
   },
   "extra": {
     "wordpress-install-dir": "wp"

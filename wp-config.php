@@ -83,6 +83,10 @@ define('WP_DEBUG', false);
 define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content' );
 //define( 'WP_CONTENT_URL', 'http:///wp-content' );
 
+// Disable automatic updates
+define( 'WP_AUTO_UPDATE_CORE', false );
+define( 'AUTOMATIC_UPDATER_DISABLED', true );
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
