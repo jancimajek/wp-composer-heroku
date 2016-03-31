@@ -18,7 +18,7 @@
   "require": {
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.4.x",
-    "fancyguy/wordpress-monolog": "dev-master",
+    "wpackagist-plugin/disable-wordpress-updates": "*",
     "wpackagist-plugin/advanced-custom-fields": "*",
     "wpackagist-plugin/posts-to-posts": "*"
   },
