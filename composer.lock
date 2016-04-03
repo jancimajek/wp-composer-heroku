@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "28178c9f37a3ed33231825709dd66826",
-    "content-hash": "e184ab4448b1998b651a48d40fa2dfb0",
+    "hash": "f6b589cc378e7984da1ec8fe942471fb",
+    "content-hash": "aa355c6491630f5c91a74822fb57da34",
     "packages": [
         {
             "name": "composer/installers",
@@ -225,26 +225,6 @@
             "time": "2015-06-11 15:15:30"
         },
         {
-            "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "4.4.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/4.4.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.5.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
-        },
-        {
             "name": "wpackagist-plugin/disable-wordpress-updates",
             "version": "1.4.7",
             "source": {
@@ -265,16 +245,16 @@
             "homepage": "https://wordpress.org/plugins/disable-wordpress-updates/"
         },
         {
-            "name": "wpackagist-plugin/posts-to-posts",
-            "version": "1.6.5",
+            "name": "wpackagist-plugin/w3-total-cache",
+            "version": "0.9.4.1",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/posts-to-posts/",
-                "reference": "tags/1.6.5"
+                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
+                "reference": "tags/0.9.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/posts-to-posts.1.6.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.4.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -282,7 +262,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/posts-to-posts/"
+            "homepage": "https://wordpress.org/plugins/w3-total-cache/"
         }
     ],
     "packages-dev": [],

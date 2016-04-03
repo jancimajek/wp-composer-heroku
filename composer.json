@@ -23,9 +23,8 @@
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.4.x",
     "wpackagist-plugin/disable-wordpress-updates": "*",
-    "wpackagist-plugin/advanced-custom-fields": "*",
-    "wpackagist-plugin/posts-to-posts": "*",
-    "jancimajek/wp-plugin-assanka_web_chat": "dev-master"
+    "jancimajek/wp-plugin-assanka_web_chat": "dev-master",
+    "wpackagist-plugin/w3-total-cache": "*"
   },
   "extra": {
     "wordpress-install-dir": "wp"
